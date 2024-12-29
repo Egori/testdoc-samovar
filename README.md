@@ -429,13 +429,7 @@ jobs:
 ![Screen_1](img/Screen_1.jpg)  
 ![Screen_2](img/Screen_2.jpg)  
 ![Screen_3](img/Screen_3.jpg)  
-
-
-Линтинг выполняется с ошибкой:  
-![Screen_4](img/Screen_4.jpg)
 ![Screen_5](img/Screen_5.jpg)
-
-Почему ошибка при линтинге, когда приложение успешно собирается - не понятно.
 
 ## Часть 4: Frontend на React  
 ### 7. Разработка UI    
