@@ -428,8 +428,10 @@ jobs:
 Приложение успешно собирается и деплоится на сервер:  
 ![Screen_1](img/Screen_1.jpg)  
 ![Screen_2](img/Screen_2.jpg)  
-![Screen_3](img/Screen_3.jpg)  
 ![Screen_5](img/Screen_5.jpg)
+![Screen_3](img/Screen_3.jpg)  
+
+---
 
 ## Часть 4: Frontend на React  
 ### 7. Разработка UI    
