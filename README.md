@@ -27,6 +27,25 @@
 Ссылка на репозиторий с приложением:  
 https://github.com/Egori/userlist-api-go-test
 
+Приложение доступно по адресу: http://193.43.79.184:8080/
+
+Примеры запросов:  
+```bash
+
+ curl http://193.43.79.184:8080/api/users
+
+ curl -X POST http://193.43.79.184:8080/users \    
+-H "Content-Type: application/json" \
+-d '{"name": Jack Smith, "email": "jack.sm@example.com"}'
+
+ curl -X PUT http://193.43.79.184:8080/users/1 \    
+-H "Content-Type: application/json" \
+-d '{"name": User Updated, "email": "user.upd@example.com"}'
+
+ curl -X DELETE http://193.43.79.184:8080/users/1
+
+```
+
 Приложение написано на Go с использованием фреймворка Echo.   
 Использовано ORM Gorm, для миграции задействовано Gorm AutoMigrate.   
 Написаны тесты для методов сервисного слоя, с мокированием репозитория, а также тесты с подключением тестовой БД.
